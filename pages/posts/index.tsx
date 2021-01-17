@@ -6,32 +6,32 @@ import utilStyles from '../../styles/utils.module.css'
 import Date from '../../components/date'
 
 export default function Home({ allPostsData }) {
-  return (
+return (
     <Layout>
-      <Head>
-        <title>ブログ一覧</title>
-      </Head>
-      <div>
-        <h2>Blog posts</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
-        <Link href="/">
-            <button className="button">← Back home</button>
-          </Link>
-      </div>
+        <Head>
+            <title>ブログ一覧</title>
+        </Head>
+        <div>
+            <h2>Blog posts</h2>
+            <ul className={utilStyles.list}>
+                {allPostsData.map(({ id, date, title }) => (
+                <li className={utilStyles.listItem} key={id}>
+                    <Link href={`/posts/${id}`}>
+                    <a>{title}</a>
+                    </Link>
+                    <br />
+                    <small className={utilStyles.lightText}>
+                    <Date dateString={date} />
+                    </small>
+                </li>
+                ))}
+            </ul>
+            <Link href="/">
+                <button className="button">← Back home</button>
+            </Link>
+        </div>
     </Layout>
-  )
+)
 }
 
 export async function getStaticProps() {

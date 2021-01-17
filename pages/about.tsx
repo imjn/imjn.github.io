@@ -6,7 +6,7 @@ import utilStyles from '../styles/utils.module.css'
 import styles from '../styles/home.module.css'
 import Date from '../components/date'
 
-export default function Home({ allPostsData }) {
+export default function about() {
   return (
     <Layout>
       <Head>
@@ -24,13 +24,4 @@ export default function Home({ allPostsData }) {
       </div>
     </Layout>
   )
-}
-
-export async function getStaticProps() {
-  const allPostsData = getSorted3PostsData()
-  return {
-    props: {
-      allPostsData
-    }
-  }
 }
