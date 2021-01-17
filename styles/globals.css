@@ -8,8 +8,9 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #36453b;
   text-decoration: none;
+  font-weight: bold;
 }
 
 * {
@@ -19,4 +20,11 @@ a {
 img {
   max-width: 100%;
   display: block;
+}
+
+.button {
+  background-color: #515751;
+  padding: 8px 12px;
+  font-weight: bold;
+  color: #f5f9e9;
 }

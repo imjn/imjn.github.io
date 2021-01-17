@@ -17,7 +17,7 @@ export default function Layout({ children}) {
                 {children}
             </div>
             <footer className={styles.footer}>
-                copyright imjn
+                <a target="_blank" href="https://twitter.com/mrimjn">@mrimjn</a>
             </footer>
         </>
     )

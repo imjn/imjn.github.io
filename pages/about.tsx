@@ -10,7 +10,7 @@ export default function Home({ allPostsData }) {
   return (
     <Layout>
       <Head>
-        <title>imjn | Portfolio & Blog</title>
+        <title>いまじん</title>
       </Head>
       <div>
         <div className={styles.profile}>
@@ -20,28 +20,7 @@ export default function Home({ allPostsData }) {
             ソフトウェアエンジニアをしています。<br />
             趣味はフットサルとサーフィンと料理です。
           </p>
-          <Link href="/about">
-            <button className="button">More about me</button>
-          </Link>
         </div>
-        
-        <h2>Blog posts</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
-        <Link href="/posts">
-            <button className="button">More posts</button>
-          </Link>
       </div>
     </Layout>
   )
