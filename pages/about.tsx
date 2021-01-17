@@ -26,8 +26,6 @@ export default function about() {
           <p>鵠沼海岸</p>
           <h3>生まれ</h3>
           <p>199x年</p>
-          <h3>大学</h3>
-          <p>東京外国語大学フランス語専攻</p>
           <h3>職歴</h3>
           <ul>
             <li>Cookpad, Inc</li>
@@ -35,6 +33,8 @@ export default function about() {
             <li>STELLA, Inc</li>
             <li>TRAICY Japan, Inc</li>
           </ul>
+          <h3>大学</h3>
+          <p>東京外国語大学フランス語専攻</p>
           <h3>各種アカウント</h3>
           <ul>
             <li>Twitter <a target="_blank" href="https://twitter.com/mrimjn">@mrimjn</a></li>
