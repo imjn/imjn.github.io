@@ -14,8 +14,8 @@ export default function Home({ allPostsData }) {
       </Head>
       <div>
         <div className={styles.profile}>
-          <img className={styles.profileImage} src="/images/profile.jpg" alt=""/>
-          <h1>imjn</h1>
+          <img className={styles.profileImage} src="/images/profile.webp" alt=""/>
+          <h1 className={styles.title}>imjn</h1>
           <p>
             ソフトウェアエンジニアをしています。<br />
             趣味はフットサルとサーフィンと料理です。

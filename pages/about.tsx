@@ -14,7 +14,7 @@ export default function about() {
       </Head>
       <div>
         <div className={styles.profile}>
-          <img className={styles.profileImage} src="/images/profile.jpg" alt=""/>
+          <img className={styles.profileImage} src="/images/profile.webp" alt=""/>
           <h1>imjn</h1>
           <p>
             ソフトウェアエンジニアをしています。<br />
