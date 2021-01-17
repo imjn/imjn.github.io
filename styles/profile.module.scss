@@ -1,0 +1,24 @@
+.profile {
+    text-align: center;
+}
+
+.profileImage {
+    width: 100px;
+    border-radius: 50px;
+    margin: auto;
+}
+
+.title {
+    margin: 12px 0;
+}
+
+.socialIconsContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+    img {
+        width: 2.5rem;
+        margin: 12px;
+    }
+}

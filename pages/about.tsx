@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Layout from '../components/layout'
 import { getSorted3PostsData } from '../lib/posts'
 import utilStyles from '../styles/utils.module.css'
-import styles from '../styles/profile.module.css'
+import styles from '../styles/profile.module.scss'
 import Date from '../components/date'
 
 export default function about() {

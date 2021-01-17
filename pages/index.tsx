@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Layout from '../components/layout'
 import { getSorted3PostsData } from '../lib/posts'
 import utilStyles from '../styles/utils.module.css'
-import styles from '../styles/profile.module.css'
+import styles from '../styles/profile.module.scss'
 import Date from '../components/date'
 
 export default function Home({ allPostsData }) {
@@ -20,6 +20,10 @@ export default function Home({ allPostsData }) {
             ソフトウェアエンジニアをしています。<br />
             趣味はフットサルとサーフィンと料理です。
           </p>
+          <div className={styles.socialIconsContainer}>
+            <a target="_blank" href="https://twitter.com/mrimjn"><img src="/icons/twitter.svg" alt=""/></a>
+            <a target="_blank" href="https://scrapbox.io/imjn"><img src="/icons/scrapbox.png" alt=""/></a>
+          </div>
           <Link href="/about">
             <button className="button">More about me</button>
           </Link>
