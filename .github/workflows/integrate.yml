@@ -52,7 +52,7 @@ jobs:
     # つまりHTMLからJSを読み込めない
     # これを回避するために.nojekyllファイルをoutディレクトリに作る
     - name: add nojekyll
-      run: touch ./src/out/.nojekyll
+      run: touch ./out/.nojekyll
 
     # gh-pagesブランチにoutディレクトリの中身をプッシュする
     # gh-pagesブランチは自動的に作成される
@@ -60,4 +60,4 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./src/out
+        publish_dir: ./out
