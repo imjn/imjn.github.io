@@ -19,7 +19,7 @@ export default function Post({ postData }) {
             <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
             <div className={styles.commentContainer}>
             <a
-              href={"https://twitter.com/intent/tweet?screen_name=mrimjn&text=imjn.github.io/posts/" + postData.id}>
+              href={"https://twitter.com/intent/tweet?screen_name=mrimjn&text=imjn.github.io/posts/" + postData.id + " "}>
               <button className="button">Twitterでコメントする</button>
             </a>
               <p className={utilStyles.lightText}>よかったらコメントください。励みになります。</p>
