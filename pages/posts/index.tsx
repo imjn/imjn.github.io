@@ -3,7 +3,6 @@ import Link from 'next/link'
 import Layout from '../../components/layout'
 import { getSortedPostsData } from '../../lib/posts'
 import utilStyles from '../../styles/utils.module.css'
-import styles from '../../styles/home.module.css'
 import Date from '../../components/date'
 
 export default function Home({ allPostsData }) {
@@ -13,7 +12,6 @@ export default function Home({ allPostsData }) {
         <title>ブログ一覧</title>
       </Head>
       <div>
-        
         <h2>Blog posts</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
