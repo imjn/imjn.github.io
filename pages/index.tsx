@@ -15,10 +15,9 @@ export default function Home({ allPostsData }) {
       <div>
         <div className={styles.profile}>
           <img className={styles.profileImage} src="/images/profile.webp" alt=""/>
-          <h1 className={styles.title}>imjn</h1>
+          <h1 className={styles.title}>いまじん</h1>
           <p>
-            ソフトウェアエンジニアをしています。<br />
-            趣味はフットサルとサーフィンと料理です。
+            東京でソフトウェアエンジニアをしています。
           </p>
           <div className={styles.socialIconsContainer}>
             <a target="_blank" href="https://twitter.com/mrimjn"><img src="/icons/twitter.svg" alt=""/></a>
