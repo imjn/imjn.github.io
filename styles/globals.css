@@ -30,3 +30,11 @@ img {
   font-weight: bold;
   color: #f5f9e9;
 }
+
+blockquote {
+  font-weight: bold;
+  background-color: white;
+  margin: 0;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+}
