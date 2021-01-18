@@ -15,7 +15,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <div>
         <div className={profStyles.profile}>
-          <img className={profStyles.profileImage} src="/images/profile.webp" alt=""/>
+          <img className={profStyles.profileImage} src="/images/profile-2.webp" alt=""/>
           <h1 className={profStyles.title}>いまじん</h1>
           <p>
             東京でソフトウェアエンジニアをしています。

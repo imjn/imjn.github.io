@@ -17,7 +17,7 @@ export default function Post({ postData }) {
             <meta property="og:title" content={postData.title} />
             <meta property="og:description" content="いまじんの雑記ブログ" />
             <meta property="og:site_name" content="imjn" />
-            <meta property="og:image" content="https://imjn.github.io/images/profile.webp" />
+            <meta property="og:image" content="https://imjn.github.io/images/profile-2.webp" />
         </Head>
         <article>
             <h1 className={utilStyles.headingXl}>{postData.title}</h1>
