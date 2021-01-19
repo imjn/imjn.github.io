@@ -32,5 +32,5 @@ date: '2021-01-18'
 *追記
 良い写真をもらったのでのせておきます。
 
-![SUn](https://i.gyazo.com/d8eb70086de0ca26e840555e38df85a9.jpg)
+![SUn](https://i.gyazo.com/79000114c27bbc1356706da86cf5c72e.jpg)
 
