@@ -16,15 +16,20 @@ export function getSortedPostsData(limit: number) {
     matterResult.data
     return {
       id,
-      ...(matterResult.data as { date: string; title: string })
+      ...(matterResult.data as { date: string; title: string; draft: Boolean})
     }
   })
-  const allPosts = allPostsData.sort((a, b) => {
+
+  let allPosts = allPostsData.sort((a, b) => {
     if (a.date < b.date) {
       return 1
     } else {
       return -1
     }
+  })
+
+  allPosts = allPosts.filter(post => {
+    return post.draft == false
   })
 
   if(limit !== 0) {
