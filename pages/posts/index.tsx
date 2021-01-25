@@ -35,7 +35,7 @@ return (
 }
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPostsData()
+  const allPostsData = getSortedPostsData(0)
   return {
     props: {
       allPostsData

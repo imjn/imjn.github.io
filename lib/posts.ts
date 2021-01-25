@@ -6,7 +6,7 @@ import html from 'remark-html'
 
 const postsDirectory = path.join(process.cwd(), 'posts')
 
-export function getSortedPostsData(limit: BigInteger) {
+export function getSortedPostsData(limit: number) {
   const fileNames = fs.readdirSync(postsDirectory)
   const allPostsData = fileNames.map(fileName => {
     const id = fileName.replace(/\.md$/, '')
@@ -16,16 +16,22 @@ export function getSortedPostsData(limit: BigInteger) {
     matterResult.data
     return {
       id,
-      ...matterResult.data
+      ...(matterResult.data as { date: string; title: string })
     }
   })
-  return allPostsData.sort((a, b) => {
+  const allPosts = allPostsData.sort((a, b) => {
     if (a.date < b.date) {
       return 1
     } else {
       return -1
     }
-  }).slice(0, 3)
+  })
+
+  if(limit !== 0) {
+    return allPosts.slice(0, limit)
+  } else {
+    return allPosts
+  }
 }
 
 export function getAllPostIds() {

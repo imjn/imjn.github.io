@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../components/layout'
-import { getSorted3PostsData } from '../lib/posts'
+import { getSortedPostsData } from '../lib/posts'
 import utilStyles from '../styles/utils.module.css'
 import profStyles from '../styles/profile.module.scss'
 import styles from '../styles/home.module.scss'
@@ -63,7 +63,7 @@ export default function Home({ allPostsData }) {
 }
 
 export async function getStaticProps() {
-  const allPostsData = getSorted3PostsData()
+  const allPostsData = getSortedPostsData(3);
   return {
     props: {
       allPostsData
