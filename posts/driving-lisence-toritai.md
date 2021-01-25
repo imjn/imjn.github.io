@@ -40,7 +40,8 @@ draft: false
 
 [Puppeteer - How to fill form that is inside an iframe?](https://stackoverflow.com/questions/46529201/puppeteer-how-to-fill-form-that-is-inside-an-iframe)
 
-今回ウェブスクレイピングを初めてやってみて凄く楽しいなと感じました。  
+スクレイピングは初めてでしたが凄く楽しいなと思いました。  
+特にデバッグ用にheadlessモードをオフにして実際にブラウザが操作されているのを見るとかなりテンションがあがりました。
 食わず嫌いを克服できたので今後はもっとスクレイピングを日々の生活に役立てたいと思います。
 
 
