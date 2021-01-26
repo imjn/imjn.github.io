@@ -18,7 +18,7 @@ export default function Home({ allPostsData }) {
           <img className={profStyles.profileImage} src="/images/profile-2.webp" alt=""/>
           <h1 className={profStyles.title}>いまじん</h1>
           <p>
-            東京でソフトウェアエンジニアをしています。
+            春から横浜でソフトウェアエンジニアになります。
           </p>
           <div className={profStyles.socialIconsContainer}>
             <a target="_blank" href="https://twitter.com/mrimjn"><img src="/icons/twitter.svg" alt=""/></a>
