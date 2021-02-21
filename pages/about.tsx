@@ -15,19 +15,20 @@ export default function about() {
         </div>
         <div className={styles.aboutContainer}>
           <h3>名前</h3>
-          いまじん(imjn,imajin)
+          imajin(imjn,いまじん)
           <h3>職業</h3>
-          <p>ソフトウェアエンジニア</p>
+          <p>ソフトウェアエンジニア(21卒)</p>
           <h3>出身</h3>
           <p>鵠沼海岸</p>
           <h3>生まれ</h3>
           <p>199x年</p>
-          <h3>職歴</h3>
+          <h3>職歴(アルバイト)</h3>
           <ul>
             <li>Cookpad, Inc</li>
             <li>Wantedly, Inc</li>
             <li>STELLA, Inc</li>
             <li>TRAICY Japan, Inc</li>
+            <li>and more...</li>
           </ul>
           <h3>大学</h3>
           <p>東京外国語大学フランス語専攻</p>
@@ -37,19 +38,19 @@ export default function about() {
             <li>Instagram <a target="_blank" href="https://instagram.com/mrimjn">@mrimjn (オープン)</a></li>
             <li>Instagram <a target="_blank" href="https://instagram.com/nowperson">@nowperson (友だち用)</a></li>
             <li>GitHub <a target="_blank"href="https://github.com/imjn">@imjn</a></li>
-            <li>Scrapbox <a target="_blank" href="https://scrapbox.io/imjn">@imjn</a></li>
+            <li>Clubhouse @mrimjn</li>
           </ul>
           <h3>ヒト語</h3>
           <ul>
-            <li>日本語 (いちばんできる)</li>
-            <li>English (にばんめにできる)</li>
-            <li>français (さんばんめにできる)</li>
+            <li>日本語</li>
+            <li>English</li>
+            <li>français</li>
           </ul>
           <h3>コンピュータ語</h3>
           <ul>
-            <li>Swift (いちばんできる)</li>
-            <li>PHP (にばんめにできる)</li>
-            <li>JavaScript (さんばんめにできる)</li>
+            <li>Swift</li>
+            <li>PHP</li>
+            <li>JavaScript</li>
           </ul>
           
         </div>

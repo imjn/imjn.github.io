@@ -16,17 +16,19 @@ export default function Home({ allPostsData }) {
       <div>
         <div className={profStyles.profile}>
           <img className={profStyles.profileImage} src="/images/profile-2.webp" alt=""/>
-          <h1 className={profStyles.title}>いまじん</h1>
+          <h1 className={profStyles.title}>imajin</h1>
           <p>
             春から横浜でソフトウェアエンジニアになります。
           </p>
           <div className={profStyles.socialIconsContainer}>
             <a target="_blank" href="https://twitter.com/mrimjn"><img src="/icons/twitter.svg" alt=""/></a>
-            <a target="_blank" href="https://scrapbox.io/imjn"><img src="/icons/scrapbox.png" alt=""/></a>
           </div>
           <Link href="/about">
             <button className="button">More about me</button>
           </Link>
+          <a target="_blank" href="https://www.amazon.jp/hz/wishlist/ls/3I59379SDCM1R?ref_=wl_share">
+            <button className="button">ほしいものリスト</button>
+          </a>
         </div>
         
         <h2 className={styles.heading}>Blog posts</h2>
