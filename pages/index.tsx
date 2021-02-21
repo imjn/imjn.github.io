@@ -26,9 +26,6 @@ export default function Home({ allPostsData }) {
           <Link href="/about">
             <button className="button">More about me</button>
           </Link>
-          <a target="_blank" href="https://www.amazon.jp/hz/wishlist/ls/3I59379SDCM1R?ref_=wl_share">
-            <button className="button">ほしいものリスト</button>
-          </a>
         </div>
         
         <h2 className={styles.heading}>Blog posts</h2>

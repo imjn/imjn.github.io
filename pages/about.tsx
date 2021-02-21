@@ -32,13 +32,14 @@ export default function about() {
           </ul>
           <h3>大学</h3>
           <p>東京外国語大学フランス語専攻</p>
-          <h3>各種アカウント</h3>
+          <h3>各種リンク</h3>
           <ul>
             <li>Twitter <a target="_blank" href="https://twitter.com/mrimjn">@mrimjn</a></li>
             <li>Instagram <a target="_blank" href="https://instagram.com/mrimjn">@mrimjn (オープン)</a></li>
             <li>Instagram <a target="_blank" href="https://instagram.com/nowperson">@nowperson (友だち用)</a></li>
             <li>GitHub <a target="_blank"href="https://github.com/imjn">@imjn</a></li>
-            <li>Clubhouse @mrimjn</li>
+            <li>Amazon <a target="_blank" href="https://www.amazon.jp/hz/wishlist/ls/3I59379SDCM1R?ref_=wl_share">ほしいものリスト</a>
+            </li>
           </ul>
           <h3>ヒト語</h3>
           <ul>
