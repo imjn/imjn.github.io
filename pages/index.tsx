@@ -6,6 +6,7 @@ import utilStyles from '../styles/utils.module.css'
 import profStyles from '../styles/profile.module.scss'
 import styles from '../styles/home.module.scss'
 import Date from '../components/date'
+import Twemoji from 'react-twemoji';
 
 export default function Home({ allPostsData }) {
   return (
@@ -28,7 +29,9 @@ export default function Home({ allPostsData }) {
           </Link>
         </div>
         
-        <h2 className={styles.heading}>Blog posts</h2>
+        <h2 className={styles.heading}>
+          <Twemoji tag="span">🖋</Twemoji> Blog posts
+        </h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
@@ -46,7 +49,11 @@ export default function Home({ allPostsData }) {
           <button className="button">More posts</button>
         </Link>
 
-        <h2 className={`${styles.heading} ${styles.headingPortfolio}`}>Portfolios</h2>
+        <h2 className={styles.heading}>
+          <Twemoji tag="span">📚</Twemoji><a target="_blank" href="https://www.notion.so/imjn/Reading-List-699e95c34677444c8f64aa986a90107a"> 読書記録</a>
+        </h2>
+
+        <h2 className={`${styles.heading} ${styles.headingPortfolio}`}>🔨 Portfolios</h2>
         <span className={`${utilStyles.lightText} ${styles.subHeading}`}>制作物の紹介です</span>
         <img className={styles.portfolioImage} src="/icons/nishikigoi.webp" alt=""/>
         <h3>
