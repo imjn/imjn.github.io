@@ -53,7 +53,7 @@ export default function Home({ allPostsData }) {
           <Twemoji tag="span">📚</Twemoji><a target="_blank" href="https://www.notion.so/imjn/Reading-List-699e95c34677444c8f64aa986a90107a"> 読書記録</a>
         </h2>
 
-        <h2 className={`${styles.heading} ${styles.headingPortfolio}`}>🔨 Portfolios</h2>
+        <h2 className={`${styles.heading} ${styles.headingPortfolio}`}><Twemoji tag="span">🔨</Twemoji> Portfolios</h2>
         <span className={`${utilStyles.lightText} ${styles.subHeading}`}>制作物の紹介です</span>
         <img className={styles.portfolioImage} src="/icons/nishikigoi.webp" alt=""/>
         <h3>
