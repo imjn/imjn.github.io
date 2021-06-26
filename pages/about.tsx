@@ -22,7 +22,7 @@ export default function about() {
           <h3>Hometown</h3>
           <p><Twemoji tag="span">🏖</Twemoji> Kugenuma Kaigan</p>
           <h3>Born in</h3>
-          <p><Twemoji tag="span">👶</Twemoji> 1997</p>
+          <p><Twemoji tag="span">🤥</Twemoji> 1997</p>
           <h3>Jobs (Including internships)</h3>
           <ul>
             <li>Cookpad, Inc</li>
