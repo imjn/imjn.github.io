@@ -23,6 +23,7 @@ export default function Home({ allPostsData }) {
           </p>
           <div className={profStyles.socialIconsContainer}>
             <a target="_blank" href="https://twitter.com/mrimjn"><img src="/icons/twitter.svg" alt=""/></a>
+            <a target="_blank" href="https://note.com/imjn"><img src="/icons/note.svg" alt=""/></a>
           </div>
           <Link href="/about">
             <button className="button">More about me</button>
