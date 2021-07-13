@@ -48,6 +48,7 @@ export default function about() {
             <li><Twemoji tag="span">🐤</Twemoji> Swift</li>
             <li><Twemoji tag="span">🐘</Twemoji> PHP</li>
             <li><Twemoji tag="span">🕸</Twemoji> JavaScript</li>
+            <li><Twemoji tag="span">🍓</Twemoji> Ruby</li>
             <li>...</li>
           </ul>
           <h3>Hobbies</h3>
