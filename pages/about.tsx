@@ -7,11 +7,11 @@ export default function about() {
   return (
     <Layout>
       <Head>
-        <title>About me | imjn</title>
+        <title>About me | imajin</title>
       </Head>
       <div>
         <div className={styles.profile}>
-          <img className={styles.profileImage} src="/images/profile.webp" alt=""/>
+          <img className={styles.profileImage} src="/images/profile.jpeg" alt=""/>
           <h1>About me</h1>
         </div>
         <div className={styles.aboutContainer}>

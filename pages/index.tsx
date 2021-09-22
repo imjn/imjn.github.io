@@ -12,18 +12,18 @@ export default function Home({ allPostsData }) {
   return (
     <Layout>
       <Head>
-        <title>imjn | Portfolio & Blog</title>
+        <title>imajin</title>
       </Head>
       <div>
         <div className={profStyles.profile}>
-          <img className={profStyles.profileImage} src="/images/profile-2.webp" alt=""/>
+          <img className={profStyles.profileImage} src="/images/profile.jpeg" alt=""/>
           <h1 className={profStyles.title}>imajin</h1>
           <p>
-            横浜でソフトウェアエンジニアをしています。
+            横浜でソフトウェアエンジニアをしています。インターネットサービスで世の中を少しずつ良くする仕組みをつくりたいです。
           </p>
           <div className={profStyles.socialIconsContainer}>
-            <a target="_blank" href="https://twitter.com/mrimjn"><img src="/icons/twitter.svg" alt=""/></a>
-            <a target="_blank" href="https://note.com/imjn"><img src="/icons/note.svg" alt=""/></a>
+            <a target="_blank" href="https://twitter.com/mrimjn"><img className={profStyles.snsIcon} src="/icons/twitter.svg" alt=""/></a>
+            <a target="_blank" href="https://note.com/imjn"><img className={profStyles.snsIcon} src="/icons/note.svg" alt=""/></a>
           </div>
           <Link href="/about">
             <button className="button">More about me</button>
@@ -31,7 +31,7 @@ export default function Home({ allPostsData }) {
         </div>
         
         <h2 className={styles.heading}>
-          <Twemoji tag="span">🖋</Twemoji> Blog posts
+          <Twemoji tag="span">💾</Twemoji> Life Log
         </h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
