@@ -19,7 +19,7 @@ export default function Home({ allPostsData }) {
           <img className={profStyles.profileImage} src="/images/profile.jpeg" alt=""/>
           <h1 className={profStyles.title}>imajin</h1>
           <p>
-            横浜でソフトウェアエンジニアをしています。インターネットサービスで世の中を少しずつ良くする仕組みをつくりたいです。
+            横浜でソフトウェアエンジニアをしています。インターネットサービスで世界を少しずつ良くする仕組みをつくりたいです。
           </p>
           <div className={profStyles.socialIconsContainer}>
             <a target="_blank" href="https://twitter.com/mrimjn"><img className={profStyles.snsIcon} src="/icons/twitter.svg" alt=""/></a>
