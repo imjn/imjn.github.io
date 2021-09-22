@@ -24,6 +24,7 @@ export default function Home({ allPostsData }) {
           <div className={profStyles.socialIconsContainer}>
             <a target="_blank" href="https://twitter.com/mrimjn"><img className={profStyles.snsIcon} src="/icons/twitter.svg" alt=""/></a>
             <a target="_blank" href="https://note.com/imjn"><img className={profStyles.snsIcon} src="/icons/note.svg" alt=""/></a>
+            <a target="_blank" href="https://scrapbox.io/imjn"><img className={profStyles.snsIcon} src="/icons/scrapbox.png" alt=""/></a>
           </div>
           <Link href="/about">
             <button className="button">More about me</button>
