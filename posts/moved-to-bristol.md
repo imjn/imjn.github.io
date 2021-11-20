@@ -2,6 +2,8 @@
 title: 'イギリス・ブリストルに引っ越しました'
 date: '2021-12-31'
 draft: true
+thumbnail: 'https://4.bp.blogspot.com/-cmir50xmDKc/U2tIoZdlayI/AAAAAAAAgfY/2HJDsGA9fsE/s800/United-Kingdom.png'
+description: '年末にイギリスのブリストルという街に引っ越してきました。'
 ---
 
 みなさんこんにちは。

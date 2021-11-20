@@ -15,9 +15,9 @@ export default function Post({ postData }) {
             <meta property="og:url" content="imjn.github.io" />
             <meta property="og:type" content="article" />
             <meta property="og:title" content={postData.title} />
-            <meta property="og:description" content="いまじんの雑記ブログ" />
+            <meta property="og:description" content={postData.description} />
             <meta property="og:site_name" content="imjn" />
-            <meta property="og:image" content="https://imjn.github.io/images/profile-2.webp" />
+            <meta property="og:image" content={postData.thumbnail} />
         </Head>
         <article>
             <h1 className={utilStyles.headingXl}>{postData.title}</h1>
@@ -27,7 +27,7 @@ export default function Post({ postData }) {
             <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
             <div className={styles.commentContainer}>
             <a
-              href={"https://twitter.com/intent/tweet?screen_name=mrimjn&text=imjn.github.io/posts/" + postData.id + " "}>
+              href={"https://twitter.com/intent/tweet?screen_name=mrimjn&text=imjn.jp/posts/" + postData.id + " "}>
               <button className="button">Twitterでコメントする</button>
             </a>
               <p className={utilStyles.lightText}>よかったらコメントください。励みになります。</p>
