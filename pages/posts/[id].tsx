@@ -16,7 +16,7 @@ export default function Post({ postData }) {
             <meta property="og:type" content="article" />
             <meta property="og:title" content={postData.title} />
             <meta property="og:description" content={postData.description} />
-            <meta property="og:site_name" content="imjn" />
+            <meta property="og:site_name" content="imjn.jp" />
             <meta property="og:image" content={postData.thumbnail} />
         </Head>
         <article>
