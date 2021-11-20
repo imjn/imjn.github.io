@@ -1,13 +1,13 @@
 ---
 title: 'イギリス・ブリストルに引っ越しました'
 date: '2021-12-31'
-draft: true
+draft: false
 ---
 
 みなさんこんにちは。
 タイトルの通り2021年末にイギリスのブリストルという街に引っ越してきました。
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79534.02653549526!2d-2.660756756590073!3d51.468468089029074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4871836681b3d861%3A0x8ee4b22e4b9ad71f!2z44Kk44Ku44Oq44K5IOODluODquOCueODiOODqw!5e0!3m2!1sja!2sjp!4v1637396246006!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79534.02653549526!2d-2.660756756590073!3d51.468468089029074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4871836681b3d861%3A0x8ee4b22e4b9ad71f!2z44Kk44Ku44Oq44K5IOODluODquOCueODiOODqw!5e0!3m2!1sja!2sjp!4v1637396938845!5m2!1sja!2sjp" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
 新卒で入社したcookpadは実は現在世界70カ国以上でサービスを展開しており、グローバルに「毎日の料理を楽しみにする」ことにチャレンジしています。
 ブリストルには海外(日本以外)に提供しているサービスの開発拠点を設けており、そこに出向させていただけることになりました。
