@@ -1,6 +1,6 @@
 ---
 title: ''
-date: '0000-00-00'
+date: '2021-01-01'
 draft: true
 thumbnail: ''
 description: ''
