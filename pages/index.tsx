@@ -18,14 +18,6 @@ export default function Home({ allPostsData }) {
         <div className={profStyles.profile}>
           <img className={profStyles.profileImage} src="/images/profile.jpeg" alt=""/>
           <h1 className={profStyles.title}>imajin</h1>
-          <p>
-            横浜でソフトウェアエンジニアをしています。インターネットサービスで世界を少しずつ良くする仕組みをつくりたいです。
-          </p>
-          <div className={profStyles.socialIconsContainer}>
-            <a target="_blank" href="https://twitter.com/mrimjn"><img className={profStyles.snsIcon} src="/icons/twitter.svg" alt=""/></a>
-            <a target="_blank" href="https://note.com/imjn"><img className={profStyles.snsIcon} src="/icons/note.png" alt=""/></a>
-            <a target="_blank" href="https://scrapbox.io/imjn"><img className={profStyles.snsIcon} src="/icons/scrapbox.png" alt=""/></a>
-          </div>
           <Link href="/about">
             <button className="button">More about me</button>
           </Link>
@@ -67,7 +59,7 @@ export default function Home({ allPostsData }) {
 }
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPostsData(3);
+  const allPostsData = getSortedPostsData(10);
   return {
     props: {
       allPostsData

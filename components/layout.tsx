@@ -8,7 +8,7 @@ export default function Layout({ children}) {
                 <div className={styles.header}>
                     <span className={styles.headerLogo}>
                         <Link href="/">
-                            imjn
+                            imjn.jp
                         </Link>
                     </span>
                 </div>
