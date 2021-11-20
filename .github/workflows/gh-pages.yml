@@ -51,6 +51,7 @@ jobs:
     - name: add nojekyll
       run: touch ./out/.nojekyll
 
+    # https://github.com/tschaub/gh-pages/issues/127#issuecomment-319557682
     - name: add CNAME
       run: echo 'imjn.jp' > ./out/CNAME
 
