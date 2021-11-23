@@ -10,9 +10,9 @@ export default function Post({ postData }) {
     <Layout>
         <Head>
             <title>{postData.title}</title>
-            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:site" content="@mrimjn" />
-            <meta property="og:url" content="imjn.github.io" />
+            <meta property="og:url" content="imjn.jp" />
             <meta property="og:type" content="article" />
             <meta property="og:title" content={postData.title} />
             <meta property="og:description" content={postData.description} />
