@@ -2,7 +2,7 @@
 title: 'イギリス・ブリストルに引っ越しました'
 date: '2021-12-29'
 draft: false
-thumbnail: '/images/posts/moved_to_bristol.jpg'
+thumbnail: 'https://imjn.github.io/images/posts/moved_to_bristol.jpg'
 description: '年末にイギリスのブリストルという街に引っ越してきました。'
 ---
 
