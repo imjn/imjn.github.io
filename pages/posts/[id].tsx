@@ -20,6 +20,7 @@ export default function Post({ postData }) {
             <meta property="og:image" content={postData.thumbnail} />
         </Head>
         <article>
+            <img src={postData.thumbnail} />
             <h1 className={utilStyles.headingXl}>{postData.title}</h1>
             <div className={utilStyles.lightText}>
               <Date dateString={postData.date} />
