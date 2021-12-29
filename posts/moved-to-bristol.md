@@ -1,26 +1,26 @@
 ---
 title: 'イギリス・ブリストルに引っ越しました'
-date: '2021-12-31'
-draft: true
-thumbnail: 'https://4.bp.blogspot.com/-cmir50xmDKc/U2tIoZdlayI/AAAAAAAAgfY/2HJDsGA9fsE/s800/United-Kingdom.png'
+date: '2021-12-29'
+draft: false
+thumbnail: '/images/posts/moved_to_bristol.jpg'
 description: '年末にイギリスのブリストルという街に引っ越してきました。'
 ---
 
-みなさんこんにちは。
-タイトルの通り2021年末にイギリスのブリストルという街に引っ越してきました。
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79534.02653549526!2d-2.660756756590073!3d51.468468089029074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4871836681b3d861%3A0x8ee4b22e4b9ad71f!2z44Kk44Ku44Oq44K5IOODluODquOCueODiOODqw!5e0!3m2!1sja!2sjp!4v1637396938845!5m2!1sja!2sjp" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+こんにちは。
+タイトルの通り2021年末にイギリスのブリストルという街に引っ越してきました 🇬🇧
 
 新卒で入社したcookpadは世界70カ国以上でサービスを展開しており、グローバルに「毎日の料理を楽しみにする」ことにチャレンジしています。
-ブリストルには海外(日本以外)に提供しているサービスの開発拠点を設けており、今回私はそこに出向させていただけることになりました。
-iOSエンジニアとして現地のグローバルチームにジョインする予定です。→[グローバルチームのコーポレートサイト](https://www.cookpadteam.com/)
+ブリストルには海外(日本以外)に提供しているサービスの開発拠点を設けており、今回私はそこに出向してきました。
+iOSエンジニアとして現地のグローバルチームにジョインします。→[グローバルチームのコーポレートサイト](https://www.cookpadteam.com/)
 
-cookpadには新卒も志望して条件をクリアすればグローバルサービスに挑戦できる制度があります。
-この会社に入った一番の理由が、グローバルなtoC向けサービスの開発に挑戦できることでした。
-今の自分にとって、グローバルなcookpad以上におもしろい環境は世界中見渡してもないんじゃないかと思っています。
+cookpadには新卒もグローバルサービスにチャレンジできる制度があります。
+この会社に入った一番の理由が、真にグローバルなtoC向けサービスの開発ができることでした。
+今の自分にとって、グローバルcookpad以上におもしろい環境は世界中見渡してもないんじゃないかと思っています。
 
 今回いただいたありがたい機会を精一杯活かして思い切りグローバルサービスの開発を楽しんでこようと思います。
 
 また日本に帰国したときには面白い話ができると思うのでぜひ遊びましょう。
 
 いまじん
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79534.02653549526!2d-2.660756756590073!3d51.468468089029074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4871836681b3d861%3A0x8ee4b22e4b9ad71f!2z44Kk44Ku44Oq44K5IOODluODquOCueODiOODqw!5e0!3m2!1sja!2sjp!4v1637396938845!5m2!1sja!2sjp" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
