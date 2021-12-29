@@ -31,7 +31,7 @@ export default function Post({ postData }) {
               href={"https://twitter.com/intent/tweet?screen_name=mrimjn&text=imjn.jp/posts/" + postData.id + " "}>
               <button className="button">Twitterでコメントする</button>
             </a>
-              <p className={utilStyles.lightText}>よかったらコメントください。励みになります。</p>
+              <p className={utilStyles.lightText}>よかったらコメントください。</p>
             </div>
         </article>
     </Layout>
