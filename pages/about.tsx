@@ -18,14 +18,15 @@ export default function about() {
           <h3>Name</h3>
           imajin(imjn,いまじん)
           <h3>Occupation</h3>
-          <p><Twemoji tag="span">💻</Twemoji> Software Engineer (21 graduate)</p>
+          <p><Twemoji tag="span">💻</Twemoji> Software Engineer</p>
           <h3>Hometown</h3>
           <p><Twemoji tag="span">🏖</Twemoji> Kugenuma Kaigan</p>
           <h3>Born in</h3>
           <p><Twemoji tag="span">🤥</Twemoji> 1997</p>
           <h3>Jobs (Including internships)</h3>
           <ul>
-            <li>Cookpad, Inc</li>
+            <li><Twemoji tag="span">🇬🇧</Twemoji> Cookpad, Ltd</li>
+            <li><Twemoji tag="span">🇯🇵</Twemoji> Cookpad, Inc</li>
             <li>Wantedly, Inc</li>
             <li>STELLA, Inc</li>
             <li>TRAICY Japan, Inc</li>
@@ -57,7 +58,7 @@ export default function about() {
             <li><Twemoji tag="span">🏄‍♂️</Twemoji> Surfing</li>
             <li><Twemoji tag="span">⛰</Twemoji> Hiking</li>
             <li><Twemoji tag="span">🍳</Twemoji> Cooking</li>
-            <li><Twemoji tag="span">👨‍💻</Twemoji> Indie Hacking</li>
+            <li><Twemoji tag="span">👨‍💻</Twemoji> Indie Hacking</li>
           </ul>
           <h3>Links</h3>
           <ul>
