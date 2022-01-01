@@ -63,6 +63,7 @@ export default function about() {
           <h3>Links</h3>
           <ul>
             <li>Twitter <a target="_blank" href="https://twitter.com/mrimjn">@mrimjn</a></li>
+            <li>Facebook <a target="_blank" href="https://facebook.com/mrimjn">@mrimjn</a></li>
             <li>note <a target="_blank" href="https://note.com/imjn">@imjn</a></li>
             <li>GitHub <a target="_blank"href="https://github.com/imjn">@imjn</a></li>
             <li>Amazon <a target="_blank" href="https://www.amazon.jp/hz/wishlist/ls/3I59379SDCM1R?ref_=wl_share">Wishlist</a>
