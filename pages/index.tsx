@@ -6,9 +6,8 @@ import utilStyles from '../styles/utils.module.css'
 import profStyles from '../styles/profile.module.scss'
 import styles from '../styles/home.module.scss'
 import Date from '../components/date'
-import Twemoji from 'react-twemoji';
 
-export default function Home({ allPostsData }) {
+export default function Home({ latestPosts }) {
   return (
     <Layout>
       <Head>
@@ -16,7 +15,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <div>
         <div className={profStyles.profile}>
-          <img className={profStyles.profileImage} src="/images/profile.jpeg" alt=""/>
+          <img className={profStyles.profileImage} src="/images/profile.png" alt=""/>
           <h1 className={profStyles.title}>imajin</h1>
           <Link href="/about">
             <button className="button">More about me</button>
@@ -24,13 +23,13 @@ export default function Home({ allPostsData }) {
         </div>
         
         <h2 className={styles.heading}>
-          <Twemoji tag="span">💾</Twemoji> Life Log
+          Latest blog
         </h2>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
+          {latestPosts.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>
-                <a>{ title}</a>
+                {title}
               </Link>
               <br />
               <small className={utilStyles.lightText}>
@@ -43,7 +42,7 @@ export default function Home({ allPostsData }) {
           <button className="button">More posts</button>
         </Link>
 
-        <h2 className={`${styles.heading} ${styles.headingPortfolio}`}><Twemoji tag="span">🔨</Twemoji> Portfolios</h2>
+        <h2 className={`${styles.heading} ${styles.headingPortfolio}`}>Portfolios</h2>
         <span className={`${utilStyles.lightText} ${styles.subHeading}`}>制作物の紹介です</span>
         <img className={styles.portfolioImage} src="/icons/nishikigoi.webp" alt=""/>
         <h3>
@@ -59,10 +58,10 @@ export default function Home({ allPostsData }) {
 }
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPostsData(10);
+  const latestPosts = getSortedPostsData(5);
   return {
     props: {
-      allPostsData
+      latestPosts
     }
   }
 }
