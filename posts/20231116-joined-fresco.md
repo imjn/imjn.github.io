@@ -2,7 +2,7 @@
 title: 'アイルランドのスタートアップに転職した'
 date: '2023-11-16'
 draft: false
-thumbnail: '/images/posts/joined_fresco.jpeg'
+thumbnail: 'https://imjn.github.io/images/posts/joined_fresco.jpeg'
 description: 'イギリスの次はアイルランドに来ました'
 ---
 

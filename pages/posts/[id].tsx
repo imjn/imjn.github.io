@@ -12,11 +12,11 @@ export default function Post({ postData }) {
             <title>{postData.title}</title>
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:site" content="@mrimjn" />
-            <meta property="og:url" content="imjn.jp" />
+            <meta property="og:url" content="imjn.github.io" />
             <meta property="og:type" content="article" />
             <meta property="og:title" content={postData.title} />
             <meta property="og:description" content={postData.description} />
-            <meta property="og:site_name" content="imjn.jp" />
+            <meta property="og:site_name" content="imjn.github.io" />
             <meta property="og:image" content={postData.thumbnail} />
         </Head>
         <article>
@@ -28,7 +28,7 @@ export default function Post({ postData }) {
             <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
             <div className={styles.commentContainer}>
             <a
-              href={"https://twitter.com/intent/tweet?screen_name=mrimjn&text=imjn.jp/posts/" + postData.id + " "}>
+              href={"https://twitter.com/intent/tweet?screen_name=mrimjn&text=imjn.github.io/posts/" + postData.id + " "}>
               <button className="button">Twitterでコメントする</button>
             </a>
               <p className={utilStyles.lightText}>よかったらコメントください。</p>
