@@ -3,7 +3,6 @@ import Link from 'next/link'
 import Layout from '../components/layout'
 import { getSortedPostsData } from '../lib/posts'
 import utilStyles from '../styles/utils.module.css'
-import profStyles from '../styles/profile.module.scss'
 import styles from '../styles/home.module.scss'
 import Date from '../components/date'
 
@@ -14,14 +13,6 @@ export default function Home({ latestPosts }) {
         <title>imajin</title>
       </Head>
       <div>
-        <div className={profStyles.profile}>
-          <img className={profStyles.profileImage} src="/images/profile.png" alt=""/>
-          <h1 className={profStyles.title}>imajin</h1>
-          <Link href="/about">
-            <button className="button">More about me</button>
-          </Link>
-        </div>
-        
         <h2 className={styles.heading}>
           Latest blog
         </h2>
