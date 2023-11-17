@@ -33,6 +33,9 @@ jobs:
     - name: add nojekyll
       run: touch ./out/.nojekyll
 
+    - name: add CNAME
+      run: echo 'www.nowperson.net' > ./out/CNAME
+
     - name: deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
