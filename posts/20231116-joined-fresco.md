@@ -6,7 +6,7 @@ thumbnail: 'https://imjn.github.io/images/posts/joined_fresco.jpeg'
 description: 'イギリスの次はアイルランドに来ました'
 ---
 
-気づけば[イギリス・ブリストルに引っ越しました](http://localhost:3000/posts/moved-to-bristol)という報告をしてから2年ほどが経った。
+気づけば[イギリス・ブリストルに引っ越しました](/posts/moved-to-bristol)という報告をしてから2年ほどが経った。
 
 話は急だが今年の春頃、レイオフに遭い初めての転職活動をイギリスですることになった。
 

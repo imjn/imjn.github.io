@@ -12,11 +12,11 @@ export default function Post({ postData }) {
             <title>{postData.title}</title>
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:site" content="@mrimjn" />
-            <meta property="og:url" content="imjn.github.io" />
+            <meta property="og:url" content="https://www.nowperson.net" />
             <meta property="og:type" content="article" />
             <meta property="og:title" content={postData.title} />
             <meta property="og:description" content={postData.description} />
-            <meta property="og:site_name" content="imjn.github.io" />
+            <meta property="og:site_name" content="imajin blog" />
             <meta property="og:image" content={postData.thumbnail} />
         </Head>
         <article>
