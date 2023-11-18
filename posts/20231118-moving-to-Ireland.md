@@ -20,7 +20,7 @@ description: '2023年9-11月頃アイルランドに移住したので、移住�
 
 ## Work Permitについて
 
-私は今回iOSエンジニアとしてダブリンの会社にオファーをいただいたのでCritical Skills Employment Permitを取得することになった。
+私は今回iOSエンジニアとしてダブリンの会社にオファーをもらったのでCritical Skills Employment Permitを取得することになった。
 
 Critical Skills Employment Permitについて詳細は公式のホームページを確認してほしい。  
 [Critical Skills Employment Permits](https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/critical-skills-employment-permit/)
