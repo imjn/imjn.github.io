@@ -1,7 +1,7 @@
 ---
 title: 'Critical Skills Employment Permitによるアイルランド移住メモ'
 date: '2023-11-18'
-draft: true
+draft: false
 thumbnail: 'https://imjn.github.io/images/posts/move_to_ireland/move_to_ireland.jpg'
 description: '2023年9-11月頃アイルランドに移住したので、移住にあたってやったことのメモを残しておく。'
 ---
