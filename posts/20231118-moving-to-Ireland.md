@@ -2,8 +2,8 @@
 title: 'Critical Skills Employment Permitによるアイルランド移住メモ'
 date: '2023-11-18'
 draft: true
-thumbnail: ''
-description: ''
+thumbnail: 'https://imjn.github.io/images/posts/move_to_ireland/move_to_ireland.jpg'
+description: '2023年9-11月頃アイルランドに移住したので、移住にあたってやったことのメモを残しておく。'
 ---
 
 2023年9-11月頃アイルランドに移住したので、移住にあたってやったことのメモを残しておく。
@@ -128,6 +128,8 @@ Cost of Livingの肌感を得る手段としてnumero.comは見てみると面�
 
 ## 移住本番
 
+![ups_hell](/images/posts/move_to_ireland/ups_hell.jpeg)
+
 BristolからDublinへは格安航空会社Ryanairで2往復して移住した。  
 2往復というと大変なように思えるが、片道1時間もかからないフライトなので一瞬である。  
 持っていた自転車は追加料金€60で運んでもらえた。  
@@ -136,6 +138,8 @@ BristolからDublinへは格安航空会社Ryanairで2往復して移住した�
 食材とか何も考えずにぶち込んでいたので、入国時に相当引っかかり全然届かず、数週間経っていざ届いてみると、動物性のものは軒並み穴が開けられて中身が捨てられていた。  
 例えばブタメンとか。もったいなぶってとっておくんじゃなくて、イギリスで食べてしまえばよかったと後悔。  
 もうちょっといろいろ考えて発送すればよかったと思う。  
+
+![butamen_death](/images/posts/move_to_ireland/butamen_death.jpeg)
 
 入国については日本のパスポートを持っていれば事前に入国ビザを取得する必要はなく、入国審査のところで「働きに来ました」と言って、Work Permitと婚姻証明を提示したらパスポートにスタンプを押してくれた。  
 
@@ -221,10 +225,10 @@ IRPの取得について、多分これが一番時間がかかる。まず予�
 
 [テック会＠ヨーロッパ](https://github.com/tech-kai/welcome)
 
-Podcastで他の人の体験とかを聞くのもよい。
+Podcastで他の人の体験を聞くのもよい。
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5rE8zBXs2kfWmKxFsVS3ab?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+[【Asai移住編3】無限引越編](https://open.spotify.com/episode/5rE8zBXs2kfWmKxFsVS3ab?si=9b121945dde0494b)
 
-他の国だったりして直接役に立たない情報でも同じように苦しみながら頑張っている人の話は元気が出る。
+他の国だったりして直接は役に立たない情報でも、同じように苦しみながら頑張っている人の話は元気が出る。
 
 あとはRedditの[r/MoveToIreland](https://www.reddit.com/r/MoveToIreland/)も見ていると面白い。「お前のためだ、来るべきではない」という現地の人のリアルな忠告をたくさんみることができる。
