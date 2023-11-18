@@ -9,10 +9,10 @@ export default function Home({ allPostsData }) {
 return (
     <Layout>
         <Head>
-            <title>Life Log</title>
+            <title>All blog</title>
         </Head>
         <div>
-            <h2>Life Log</h2>
+            <h2>All blog</h2>
             <ul className={utilStyles.list}>
                 {allPostsData.map(({ id, date, title }) => (
                 <li className={utilStyles.listItem} key={id}>

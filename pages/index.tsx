@@ -32,17 +32,6 @@ export default function Home({ latestPosts }) {
         <Link href="/posts">
           <button className="button">More posts</button>
         </Link>
-
-        <h2 className={`${styles.heading} ${styles.headingPortfolio}`}>Portfolios</h2>
-        <span className={`${utilStyles.lightText} ${styles.subHeading}`}>制作物の紹介です</span>
-        <img className={styles.portfolioImage} src="/icons/nishikigoi.webp" alt=""/>
-        <h3>
-          ニシキゴイ
-        </h3>
-        <p>ニシキゴイは写真俳句のSNSアプリです。これまでに12万句以上の投句がされています。初めてつくったアプリでした。</p>
-        <a target="_blank" href="https://apps.apple.com/jp/app/%E3%83%8B%E3%82%B7%E3%82%AD%E3%82%B4%E3%82%A4-%E4%BF%B3%E5%8F%A5%E3%81%A8%E5%86%99%E7%9C%9F%E3%81%AEsns/id1321285792?itsct=apps_box&itscg=30200">
-          AppStoreでみる
-        </a>
       </div>
     </Layout>
   )
