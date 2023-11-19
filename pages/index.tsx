@@ -13,6 +13,15 @@ export default function Home({ latestPosts }) {
         <title>imajin</title>
       </Head>
       <div>
+        <div className={styles.profile}>
+          <div className={styles.profileText}>
+            <p>こんにちは、imajinです。</p>
+            <p>DublinでiOSエンジニアをしています。</p>
+            <Link href="/about">
+              <button className="button">More about me</button>
+            </Link>
+          </div>
+        </div>
         <h2 className={styles.heading}>
           Latest blog
         </h2>
