@@ -5,15 +5,6 @@ import profStyles from '../styles/profile.module.scss'
 export default function Layout({ children }) {
     return (
         <>
-            <header className={styles.headerContainer}>
-                <div className={styles.header}>
-                    <span className={styles.headerLogo}>
-                        <Link href="/">
-                            <img src="/images/profile.png" alt=""/>
-                        </Link>
-                    </span>
-                </div>
-            </header>
             <div className={styles.container}>
                 {children}
             </div>

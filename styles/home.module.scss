@@ -1,27 +1,51 @@
+// Common styles for the home page
 .heading {
     margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .headingTitle {
+        margin-top: 2rem;
+    }
 }
 
-.headingPortfolio {
-    margin-bottom: 0;
+#profileContainer {
+    .profileTitle {
+        padding-top: 12px;
+        font-size: calc(1.8vw + 1.5rem);
+        font-weight: bold;
+    }
+
+    .profileDescription {
+        font-size: calc(0.8vw + 0.8rem);
+        font-weight: bold;
+    }
+
+    button {
+        margin-top: 12px;
+    }
 }
 
-.subHeading {
-    display: inline-block;
-    margin-bottom: 12px;
-}
+#notePostsGridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-bottom: 24px;
 
-.portfolioImage {
-    width: 150px;
-    border-radius: 32px;
-}
 
-.comingSoon {
-    margin-top: 32px;
-}
+    .notePostContainer {
+        .notePostTitle {
+            font-size: 1rem;
+            font-weight: bold;
+            padding: 4px;
+        }
 
-.profileText {
-    padding-top: 12px;
-    font-size: 1.5rem;
-    font-weight: bold;
+        .thumbnail {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }    
+    }
 }

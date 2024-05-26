@@ -28,6 +28,7 @@ img {
   padding: 8px 12px;
   font-weight: bold;
   color: #f5f9e9;
+  cursor: pointer;
 }
 
 blockquote {
