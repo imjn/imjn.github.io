@@ -20,7 +20,7 @@ export default function about() {
           <ul>
             <li><a href="https://frescocooks.com"><span className={styles.bold}>fresco</span></a>, Dublin, Ireland, 23.09 -</li>
             <li><a href="https://cookpad.com/uk/homepage"><span className={styles.bold}>Cookpad limited</span></a>, Bristol, UK, 22.01 - 23.06</li>
-            <li><a href="https://cookpad.com"><span className={styles.bold}>クックパッド株式会社</span></a>, 横浜, Japan, 21.04 - 21.12</li>
+            <li><a href="https://cookpad.com"><span className={styles.bold}>クックパッド株式会社</span></a>, 横浜, 日本, 21.04 - 21.12</li>
             <li><span className={styles.bold}>...</span></li>
           </ul>
 
