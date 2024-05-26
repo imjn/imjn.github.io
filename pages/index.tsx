@@ -33,22 +33,26 @@ export default function Home({ latestPosts, notePosts }) {
         </div>
         <div id={styles.notePostsContainer}>
           <div id={styles.notePostsGridContainer}>
-            {notePosts.map(({ id, name, publishAt, noteUrl, eyecatch }) => (
+            {notePosts.map(({ id, name, likeCount, publishAt, noteUrl, eyecatch }) => (
               <div className={styles.notePostContainer} key={id}>
-                <Link href={noteUrl} passHref legacyBehavior>
-                  <a className={styles.postLink} target='_blank'>
-                    <div className={styles.thumbnailContainer}>
-                      <img src={eyecatch} alt={name} className={styles.thumbnail} />
-                    </div>
-                    <div className={styles.notePostTitle}>
-                      {name}
-                      <br />
-                      <small className={utilStyles.lightText}>
-                        <Date dateString={publishAt} />
-                      </small>
-                    </div>
-                  </a>
+                <Link href={noteUrl} target='_blank'>
+                  <div className={styles.thumbnailContainer}>
+                    <img src={eyecatch} alt={name} className={styles.thumbnail} />
+                  </div>
                 </Link>
+                <div className={styles.notePostTitle}>
+                  <Link href={noteUrl} target='_blank'>
+                    {name}
+                  </Link>
+                  <br />
+                  <small className={utilStyles.lightText}>
+                    {likeCount} likes,
+                  </small>
+                  <small className={utilStyles.lightText}>
+                    <Date dateString={publishAt} />
+                  </small>
+                </div>
+
               </div>
             ))}
           </div>
