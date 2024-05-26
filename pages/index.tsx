@@ -16,9 +16,9 @@ export default function Home({ latestPosts, notePosts }) {
       <div>
         {/* Profile card */}
         <div id={styles.profileContainer}>
-          <h1 className={styles.profileTitle}>Howdy👋<br />I'm Imajin.</h1>
+          <h1 className={styles.profileTitle}>Howdy!<br />I'm Imajin.</h1>
           <p className={styles.profileDescription}>
-            アイルランド在住のモバイルアプリエンジニアです。趣味は欧州サッカー観戦と旅行です。休日は趣味でアプリもつくっています。
+            ダブリン在住のモバイルアプリエンジニアです。趣味は欧州サッカー観戦と旅行です。日本→イギリス→アイルランドと移住してきました。
           </p>
           <Link href="/about">
             <button className="button">View profile</button>
