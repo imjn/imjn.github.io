@@ -1,9 +1,13 @@
 name: github pages
 
 on:
+  workflow_dispatch:
   push:
     branches:
     - master
+  schedule:
+    # Publish every Monday at 9:00 AM to retrieve latest like count from note.com
+    - cron: '0 9 * * 1'
 
 jobs:
   build-deploy:
