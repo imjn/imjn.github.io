@@ -20,13 +20,16 @@ export default function Home({ latestPosts, notePosts }) {
           <p className={styles.profileDescription}>
             ダブリン在住のモバイルアプリエンジニアです。趣味は欧州サッカー観戦と旅行です。日本→イギリス→アイルランドと移住してきました。
           </p>
+          <p className={`${utilStyles.lightText} ${styles.profileDescriptionEn}`}>
+            I'm a mobile app engineer based in Dublin. I love watching European football and traveling. I've moved from Japan to the UK and then to Ireland.
+          </p>
           <Link href="/about">
             <button className="button">View profile</button>
           </Link>
         </div>
 
         <div className={styles.heading}>
-          <h2 className={styles.headingTitle}>noteでの投稿</h2>
+          <h2 className={styles.headingTitle}>Posts on note.com</h2>
         </div>
         <div id={styles.notePostsContainer}>
           <div id={styles.notePostsGridContainer}>
@@ -58,7 +61,7 @@ export default function Home({ latestPosts, notePosts }) {
         </div>
 
         <div className={styles.heading}>
-          <h2 className={styles.headingTitle}>その他の記録</h2>
+          <h2 className={styles.headingTitle}>Other logs</h2>
         </div>
         <ul className={utilStyles.list}>
           {latestPosts.map(({ id, date, title }) => (
