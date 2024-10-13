@@ -18,7 +18,7 @@ export default function Home({ latestPosts, notePosts }) {
         <div id={styles.profileContainer}>
           <h1 className={styles.profileTitle}>Howdy!<br />I'm Imajin.</h1>
           <p className={styles.profileDescription}>
-            ダブリン在住のモバイルアプリエンジニアです。趣味は欧州サッカー観戦と旅行です。日本→イギリス→アイルランドと移住してきました。
+            ダブリン在住のエンジニア。趣味は欧州サッカー観戦と旅行です。日本→イギリス→アイルランドと移住してきました。
           </p>
           <p className={`${utilStyles.lightText} ${styles.profileDescriptionEn}`}>
             I'm a mobile app engineer based in Dublin. I love watching European football and traveling. I've moved from Japan to the UK and then to Ireland.
@@ -29,6 +29,27 @@ export default function Home({ latestPosts, notePosts }) {
         </div>
 
         <div className={styles.heading}>
+          <h2 className={styles.headingTitle}>Latest blog</h2>
+        </div>
+        <ul className={utilStyles.list}>
+          {latestPosts.map(({ id, date, title }) => (
+            <li className={utilStyles.listItem} key={id}>
+              <Link href={`/posts/${id}`}>
+                {title}
+              </Link>
+              <br />
+              <small className={utilStyles.lightText}>
+                <Date dateString={date} />
+              </small>
+            </li>
+          ))}
+        </ul>
+        <Link href="/posts">
+          <button className="button">View all</button>
+        </Link>
+      </div>
+
+      <div className={styles.heading}>
           <h2 className={styles.headingTitle}>Posts on note.com</h2>
         </div>
         <div id={styles.notePostsContainer}>
@@ -63,27 +84,6 @@ export default function Home({ latestPosts, notePosts }) {
             </a>
           </Link>
         </div>
-
-        <div className={styles.heading}>
-          <h2 className={styles.headingTitle}>Other logs</h2>
-        </div>
-        <ul className={utilStyles.list}>
-          {latestPosts.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
-                {title}
-              </Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
-        <Link href="/posts">
-          <button className="button">View all</button>
-        </Link>
-      </div>
     </Layout>
   )
 }
