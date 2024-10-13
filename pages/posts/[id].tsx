@@ -12,7 +12,7 @@ export default function Post({ postData }) {
             <title>{postData.title}</title>
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:site" content="@mrimjn" />
-            <meta property="og:url" content="https://www.nowperson.net" />
+            <meta property="og:url" content="https://www.imjn.me" />
             <meta property="og:type" content="article" />
             <meta property="og:title" content={postData.title} />
             <meta property="og:description" content={postData.description} />
@@ -20,6 +20,9 @@ export default function Post({ postData }) {
             <meta property="og:image" content={postData.thumbnail} />
         </Head>
         <article>
+            <div>
+              <a href="/">◀️ Home</a>
+            </div>
             <img src={postData.thumbnail} />
             <h1 className={utilStyles.headingXl}>{postData.title}</h1>
             <div className={utilStyles.lightText}>
