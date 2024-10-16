@@ -20,8 +20,8 @@ export default function Post({ postData }) {
             <meta property="og:image" content={postData.thumbnail} />
         </Head>
         <article>
-            <div>
-              <a href="/">◀️ Home</a>
+            <div className={styles.nav}>
+              <a href="/"><p>&lt; Home</p></a>
             </div>
             <img src={postData.thumbnail} />
             <h1 className={utilStyles.headingXl}>{postData.title}</h1>

@@ -16,12 +16,12 @@ export default function Home({ latestPosts, notePosts }) {
       <div>
         {/* Profile card */}
         <div id={styles.profileContainer}>
-          <h1 className={styles.profileTitle}>Howdy!<br />I'm Imajin.</h1>
+          <h1 className={styles.profileTitle}>Howdy!</h1>
           <p className={styles.profileDescription}>
-            ダブリン在住のエンジニア。趣味は欧州サッカー観戦と旅行です。日本→イギリス→アイルランドと移住してきました。
+            ダブリン在住のエンジニア。日本→イギリス→アイルランドと移住してきました。
           </p>
           <p className={`${utilStyles.lightText} ${styles.profileDescriptionEn}`}>
-            I'm a mobile app engineer based in Dublin. I love watching European football and traveling. I've moved from Japan to the UK and then to Ireland.
+            I'm a mobile app engineer based in Dublin. I've moved from Japan to the UK and then to Ireland.
           </p>
           <Link href="/about">
             <button className="button">View profile</button>
@@ -30,6 +30,7 @@ export default function Home({ latestPosts, notePosts }) {
 
         <div className={styles.heading}>
           <h2 className={styles.headingTitle}>Latest blog</h2>
+          <p className={`${styles.sectionDescription} ${utilStyles.lightText}`}>日々の雑な文章</p>
         </div>
         <ul className={utilStyles.list}>
           {latestPosts.map(({ id, date, title }) => (
@@ -50,40 +51,41 @@ export default function Home({ latestPosts, notePosts }) {
       </div>
 
       <div className={styles.heading}>
-          <h2 className={styles.headingTitle}>Posts on note.com</h2>
-        </div>
-        <div id={styles.notePostsContainer}>
-          <div id={styles.notePostsGridContainer}>
-            {notePosts.map(({ id, name, likeCount, publishAt, noteUrl, eyecatch }) => (
-              <div className={styles.notePostContainer} key={id}>
-                <Link href={noteUrl} target='_blank'>
-                  <div className={styles.thumbnailContainer}>
-                    <img src={eyecatch} alt={name} className={styles.thumbnail} />
-                  </div>
-                </Link>
-                <div className={styles.notePostTitle}>
-                  <Link href={noteUrl} target='_blank'>
-                    {name}
-                  </Link>
-                  <br />
-                  <small className={utilStyles.lightText}>
-                    {likeCount} likes,
-                  </small>
-                  <small className={utilStyles.lightText}>
-                    <Date dateString={publishAt} />
-                  </small>
+        <h2 className={styles.headingTitle}>Posts on note.com</h2>
+        <p className={`${styles.sectionDescription} ${utilStyles.lightText}`}>外向きの文章</p>
+      </div>
+      <div id={styles.notePostsContainer}>
+        <div id={styles.notePostsGridContainer}>
+          {notePosts.map(({ id, name, likeCount, publishAt, noteUrl, eyecatch }) => (
+            <div className={styles.notePostContainer} key={id}>
+              <Link href={noteUrl} target='_blank'>
+                <div className={styles.thumbnailContainer}>
+                  <img src={eyecatch} alt={name} className={styles.thumbnail} />
                 </div>
-
+              </Link>
+              <div className={styles.notePostTitle}>
+                <Link href={noteUrl} target='_blank'>
+                  {name}
+                </Link>
+                <br />
+                <small className={utilStyles.lightText}>
+                  {likeCount} likes,
+                </small>
+                <small className={utilStyles.lightText}>
+                  <Date dateString={publishAt} />
+                </small>
               </div>
-            ))}
-          </div>
 
-          <Link href="https://note.com/imjn" passHref legacyBehavior>
-            <a href="https://note.com/imjn" target='_blank'>
-              <button className="button">Visit note.com</button>
-            </a>
-          </Link>
+            </div>
+          ))}
         </div>
+
+        <Link href="https://note.com/imjn" passHref legacyBehavior>
+          <a href="https://note.com/imjn" target='_blank'>
+            <button className="button">Visit note.com</button>
+          </a>
+        </Link>
+      </div>
     </Layout>
   )
 }
